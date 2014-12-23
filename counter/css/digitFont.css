@@ -1,0 +1,66 @@
+/* 
+    Document   : digitFont
+    Created on : 23.12.2014, 13:01:32
+    Author     : tmitschke
+    Description: Font taken from http://www.ffonts.net/Digital-Counter-7.font
+        
+*/
+
+@font-face {
+  font-family: 'Digital-Counter-7';
+    src:  url('/counter/font/digital-counter-7/Digital-Counter-7.ttf.woff') format('woff'),
+    url('/counter/font/digital-counter-7/Digital-Counter-7.ttf.svg#Digital-Counter-7') format('svg'),
+    url('/counter/font/digital-counter-7/Digital-Counter-7.ttf.eot'),
+    url('/counter/font/digital-counter-7/Digital-Counter-7.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.simpleCounterJS-special {
+  font-family: 'Digital-Counter-7';
+  text-align: center;
+  font-size:20px;
+  color:green;
+/*  
+  background: black; 
+  float: left;
+*/  
+  display: inline; 
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  
+}
+
+.simpleCounterJS-small {
+  font-family: 'Digital-Counter-7';
+  text-align: center;
+  font-size:20px;
+  color:green;
+  background: black; 
+  float: left;
+  display: inline; 
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  
+}
+
+.simpleCounterJS-normal {
+  font-family: 'Digital-Counter-7';
+  text-align: center;
+  font-size:30px;
+  color:green;
+  background: black; 
+  float: left;
+  display: inline; 
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  
+}
+
+
