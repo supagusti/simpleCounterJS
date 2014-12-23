@@ -1,8 +1,8 @@
 simpleCounterJS
 ===============
 
-A simple but bot-proof visitor counter
-It is base on the assumption, that a bot doen't have a mouse nor a touch screen for browsing. 
+A simple but bot-proof visitor counter.
+It is based on the assumption, that a bot doesn't have a mouse nor a touch screen for browsing. 
 There is a java event onmousemove/ontouchmove that triggers the counter to increase. A cookie prevents the counter to
 count up rapidly.
 
